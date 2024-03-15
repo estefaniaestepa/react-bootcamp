@@ -1,0 +1,80 @@
+/* EN ESTE SE PONE POR CADA CLASE LOS ESTILOS */
+/* styles.css */
+.title{
+  background-color: #fff;
+  color:rgb(255, 102, 0);
+  text-align: center;
+  font-size: 32px;
+}
+.charactersList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 41px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #5a5a5a;
+  color: #000000;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
+.img-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-image: url('../public/img/fondoCard.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.char-img {
+  width: 139px;
+  height: 303px;
+
+}
+
+.container .char-img {
+  transition: transform 0.3s ease;
+}
+.container:hover .char-img {
+  transform: scale(1.3);
+}
+
+.desc-container {
+  padding: 15px;
+}
+
+.desc-container h2 {
+  margin-top: 0;
+}
+
+.name-container{
+  color: #fff;
+  font-weight: bolder;
+}
+
+.prop-container{
+  padding: 0 10px;
+}
+.prop {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.prop p span{
+  color:rgb(255, 102, 0);
+  font-weight: bolder;
+  font-size: 16px;
+}
