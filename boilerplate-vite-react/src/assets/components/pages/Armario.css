@@ -1,0 +1,49 @@
+html{
+  height: 100%;
+}
+body{
+  background-image: url('./img/fondo.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.armario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#f38080, #fa2d2d);
+  width: 314px;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 30px;
+ /*  box-shadow: 0 0 20px #fff; */
+  }
+
+  img.img-armario {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+  
+  .boton-armario-container {
+    margin-top: 20px; /* Espaciado superior */
+  }
+  
+  .boton-armario {
+    background-color: black;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-right: 10px; 
+    transition: 0.3s ease-in-out;
+    font-size: 18px;
+  }
+  
+  .boton-armario:hover {
+    background-color: #fff; 
+    color: #000;
+  }

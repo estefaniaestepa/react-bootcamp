@@ -1,0 +1,50 @@
+body{
+  background: url(img/fondo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.list-char{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.char-card{
+  width: 250px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  margin: 15px 15px;
+}
+.char-card:hover{
+  transform: scale(1.1);
+  filter: brightness(80%);
+}
+.char-card img{
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.char-name{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p{
+  color: #000;
+}
+
+/* .char-img-container{
+  width:200px ;
+  height: 200px;
+  overflow: hidden;
+  border: 5px solid white;
+  border-radius: 100%;
+}
+.char-img-container img{
+width: 100%;
+}  para que las imagenes tengan todas el mismo tamaño y sean redondas*/
