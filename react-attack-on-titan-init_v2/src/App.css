@@ -1,0 +1,117 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("/img/main-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.search {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.search select {
+  background-color: azure;
+  color: #333;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+/* .search button {
+  width: 260px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  color: #333;
+} */
+
+/* .search button:hover {
+  cursor: pointer;
+  color: white;
+} */
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.titan-card {
+  width: 250px;
+  border-radius: 25px;
+  background-color: #333;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.titan-card h4 {
+  font-size: 16px;
+}
+.titan-card p {
+  font-size: 14px;
+}
+
+.titan-card img {
+  border-radius: 10%;
+}
+
+.titan-card img:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.char-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 25px;
+}
+.char-form-input {
+  height: 40px;
+  width: 75%;
+  margin-top: 10px;
+  padding-left: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.char-form button {
+  margin-top: 10px;
+  width: 75%;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.no-char {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
